@@ -1,0 +1,70 @@
+# Python-Dateien und Build-Artefakte
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtuelle Umgebungen
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Lokale Konfigurationen
+.env
+.env.*
+*.secrets
+*.token
+
+# MLflow und große Artefakte (ML Models, Logs)
+**/mlartifacts/
+mlruns/
+mlflow.db
+
+# Log-Dateien
+logs/
+*.log
+*.out
+*.err
+
+# Modell- und Gewicht-Dateien (Deep Learning)
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.joblib
+*.pkl
+
+# Große Datenbestände und Datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.xlsx
+*.parquet
+
+# IDE-spezifische Dateien
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.sublime-workspace
+
+# Git LFS (nur verwenden, wenn aktiviert)
+*.lfs
