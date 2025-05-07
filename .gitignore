@@ -70,3 +70,9 @@ datasets/
 
 # Git LFS (nur verwenden, wenn aktiviert)
 *.lfs
+
+# MLflow und große Artefakte (ML Models, Logs)
+MLOps/15-MLFlow/
+MLOps/15-MLFlow/*
+**/MLOps/15-MLFlow/
+**/MLOps/15-MLFlow/*
