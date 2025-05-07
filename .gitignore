@@ -27,7 +27,9 @@ ENV/
 *.token
 
 # MLflow und große Artefakte (ML Models, Logs)
+mlartifacts/
 **/mlartifacts/
+*/mlartifacts/*
 mlruns/
 mlflow.db
 
