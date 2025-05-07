@@ -76,3 +76,7 @@ MLOps/15-MLFlow/
 MLOps/15-MLFlow/*
 **/MLOps/15-MLFlow/
 **/MLOps/15-MLFlow/*
+
+# Python Virtual Environment
+git-filter-repo-env/
+
